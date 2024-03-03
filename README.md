@@ -39,6 +39,12 @@ pip install -r requirements.txt
 ```
 
 ### Start project
+start redis and pgadmin4:
+```sh
+redis-server
+
+pgadmin4
+```
 
 ```sh
 cd app/
