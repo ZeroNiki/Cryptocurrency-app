@@ -39,6 +39,9 @@ pip install -r requirements.txt
 ```
 
 ### Start project
+before launch watch [Configuration](https://github.com/ZeroNiki/Cryptocurrency-app?tab=readme-ov-file#Configuration)
+
+
 if you not using docker for start. Change startup functionin app/main.py to:
 ```python
 @app.on_event("startup")
@@ -124,6 +127,14 @@ API_TOKEN=your token from mobula
 
 AUTH_SECRET=Think of something
 ```
+
+### Alembic
+```sh
+alembic revision --autogenerate -m "Init"
+
+alembic upgrade head
+```
+
 
 
 ## Usage
