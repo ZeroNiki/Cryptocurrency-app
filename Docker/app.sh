@@ -1,5 +1,6 @@
 #!/bin/bash
 
+alembic revision --autogenerate -m "Docker Init"
 alembic upgrade head
 
 cd app/
