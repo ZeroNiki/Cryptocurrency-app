@@ -1,0 +1,94 @@
+html {
+  margin: 0;
+  height: 100%;
+}
+
+.main-register {
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  place-content: center;
+  text-align: center;
+}
+
+.register-div {
+  border-radius: 50px;
+  background-color: #8c8c8c;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  width: 520px;
+  padding: 47px 66px;
+  
+}
+
+.register-div input {
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 10px; 
+  flex: 1;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.username-inp {
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  height: 29px;
+  width: 500px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  border: 1px solid #ccc;
+}
+
+.email-inp {
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  margin-top: 33px;
+  height: 29px;
+  width: 500px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  border: 1px solid #ccc;
+}
+
+.passwd-inp {
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  margin-top: 24px;
+  height: 29px;
+  width: 500px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  border: 1px solid #ccc;
+}
+
+.submit-inp {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  align-self: center;
+  margin-top: 58px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+}
+
+.username-inp:hover {
+  border-color: #3E8EBE; 
+  transform: scale(1.05);
+}
+
+.email-inp:hover {
+  border-color: #3E8EBE; 
+  transform: scale(1.05);
+}
+
+.passwd-inp:hover {
+  border-color: #3E8EBE; 
+  transform: scale(1.05);
+}
+
+.submit-inp:hover {
+  border-color: #265c80; 
+  transform: scale(1.05);
+}
+

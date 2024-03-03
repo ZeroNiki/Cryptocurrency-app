@@ -1,0 +1,84 @@
+body {
+  font-family: monospace;
+  background: #666666;
+  margin: 0;
+}
+
+
+/* NavBar */
+.nav {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #898989;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0px 66px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 30px;
+}
+
+.nav-text {
+  align-self: start;
+  margin-top: 35px;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.nav-text a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white; 
+}
+
+.nav-button {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.login {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #d9d9d9;
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+.login:hover {
+  transform: scale(1.1);
+}
+
+.register {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #d9d9d9;
+  font-size: 15px;
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+.register:hover {
+  transform: scale(1.1)
+}
+
