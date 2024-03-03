@@ -5,7 +5,10 @@ dump.rdb
 venv/
 
 # Ignore Python bytecode files
-my_project/__pycache__/
+app/__pycache__/
+migrations/__pycache__/
 
 # Ignore specific test.py in the root directory of my_project
-my_project/test.py
+app/test.py
+
+
