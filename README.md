@@ -39,6 +39,16 @@ pip install -r requirements.txt
 ```
 
 ### Start project
+if you not using docker for start. Change startup functionin app/main.py to:
+```python
+@app.on_event("startup")
+async def startup():
+    redis = aioredis.from_url(
+        "redis://localhost:6379", encoding="utf8", decode_responses=True)
+    FastAPICache.init(RedisBackend(redis), prefix="fastapi-cache")
+```
+if you are going to use docker then do not touch this piece of code and go to Docker Install
+
 start redis and pgadmin4:
 ```sh
 redis-server
