@@ -5,6 +5,7 @@
     - [Docker install](https://github.com/ZeroNiki/Cryptocurrency-app?tab=readme-ov-file#Docker-Install)
     - [Configuration](https://github.com/ZeroNiki/Cryptocurrency-app?tab=readme-ov-file#Configuration)
     - [Usage](https://github.com/ZeroNiki/Cryptocurrency-app?tab=readme-ov-file#Usage)
+    - [TODO](https://github.com/ZeroNiki/Cryptocurrency-app?tab=readme-ov-file#TODO)
 
 ## About
 Cryptocurrency app
@@ -155,6 +156,11 @@ Search:
 find by symbol and get price, name, logo
 
 ### Other routes see in `documentation`
+
+## TODO
+- Improve user authorization;
+      - Correct mistakes in Docker
+- Improve home, about page;
 
 
 
