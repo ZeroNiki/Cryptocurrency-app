@@ -1,27 +1,41 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block head %}
 
-
-{% block head %}
-
-<link rel="stylesheet" href="{{ url_for('static', path='css/register-s.css') }}">
+<link
+	rel="stylesheet"
+	href="{{ url_for('static', path='css/register-s.css') }}"
+/>
 
 <title>Register</title>
-{% endblock %}
-
-
-
-{% block content%}
+{% endblock %} {% block content%}
 
 <div class="main-register">
-  <div class="register-div">
-    <form action="/auth/register" method="post">
-      <input type="text" name="username" placeholder="Your username" class="username-inp" required>
-      <input type="email" name="email" placeholder="Your email" class="email-inp" required>
-      <input type="password" name="password" placeholder="Your password" class="passwd-inp" required>
+	<div class="register-div">
+		<form action="create" method="post">
+			<input
+				type="text"
+				name="username"
+				placeholder="Your username"
+				class="username-inp"
+				required
+			/>
+			<input
+				type="email"
+				name="email"
+				placeholder="Your email"
+				class="email-inp"
+				required
+			/>
+			<input
+				type="password"
+				name="password"
+				placeholder="Your password"
+				class="passwd-inp"
+				required
+			/>
 
-      <button type="submit" class="submit-inp">Register</button>
-    </form>
-  </div>
+			<button type="submit" class="submit-inp">Register</button>
+		</form>
+	</div>
 </div>
 
 {% endblock %}
